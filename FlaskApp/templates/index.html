@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Google UI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div class="jumbotron" style="height:600px;"  >
+
+<h2 style="text-align: center;color:#008080"><strong>Search Engine</strong></h2>
+
+<img src="{{ url_for('static', filename = 'featured.jpg') }}" style="margin-left:450px;" width="300" height="200">
+
+<div class="form-group" style="margin-left:400px; margin-top:10px;">
+
+
+  <form method="post" action="{{ url_for('result') }}">
+                <label for="search"><h3 style="margin-left:150px;"><b>Search</b></h3></b></label>
+
+                  <input type="text" class="form-control" placeholder="Search The Query Here" style="width:400px;" name="yourname" />
+                  <br>
+                  <button type="submit" class="btn btn-default" style="margin-left:150px;">Submit</button>
+                </form>
+
+
+
+
+
+
+
+
+
+      
+    </div>
+    </div>
+    </body>
+    </html>
+   
+
+   

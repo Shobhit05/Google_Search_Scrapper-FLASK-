@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Result Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="jumbotron" style="height:750px;">
+
+<h2 style="text-align: center;color:#008080"><strong>Search Results are as Follows</strong></h2>
+
+<div style="margin-left:378px;margin-top:20px;">
+
+{% for i in result %}
+
+<h5 style="color:black"><strong>{{i}}</strong></h5>
+
+
+{%endfor%}
+
+<h2 style="color:#black"><strong>The NNP entities are</strong></h2>
+{%for i in entity %}
+<h5 style="word-wrap: break-word;color:#008080; display: inline-block;"><strong>{{i.0}}, </strong></h5>
+
+{%endfor%}
+
+
+</div>      
+</div>

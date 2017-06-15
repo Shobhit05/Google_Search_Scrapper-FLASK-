@@ -3,7 +3,9 @@
 Application Used:
 
 1--> FLASK(Python Web Framework)
+
 2--> BeautifulSoup(Web Scrapping)
+
 3--> NLTK(For Named Entity Recongnition)
 
 ABOUT THE PROJECT
